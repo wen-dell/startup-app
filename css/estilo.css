@@ -3,3 +3,27 @@
     height: 300px;
     margin-left: auto; 
  }
+
+ .navbar-color, .footer-color {
+     background-color: #64b5f6;
+ }
+
+ .dark-info {
+     background-color: #000;
+     color: #fff;
+     padding: 100px;
+ }
+
+ .dark-info div {
+     margin-bottom: 40px;
+ }
+
+ .dark-info i {
+     color: #64b5f6;
+     font-size: 50px;
+ }
+
+ .rect {
+     border: 3px solid #64b5f6;
+     height: 600px;
+ }
