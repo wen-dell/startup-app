@@ -1,3 +1,7 @@
+body {
+    font-family: 'Raleway', sans-serif;
+}
+
 .img-app {
     width: 300px;
     height: 300px;
@@ -5,7 +9,7 @@
  }
 
  .navbar-color, .footer-color {
-     background-color: #64b5f6;
+     background-color: #8e24aa;
  }
 
  .dark-info {
@@ -14,16 +18,22 @@
      padding: 100px;
  }
 
- .dark-info div {
-     margin-bottom: 40px;
- }
-
  .dark-info i {
-     color: #64b5f6;
+     color: #8e24aa;
      font-size: 50px;
  }
 
+ .dark-info p {
+     text-align: justify;
+     width: 80%;
+ }
+
  .rect {
-     border: 3px solid #64b5f6;
-     height: 600px;
+     border: 2px solid #8e24aa;
+     border-radius: 4px;
+     height: 500px;
+ }
+
+ .purple-info {
+     background-color: #ab47bc;
  }
