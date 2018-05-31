@@ -1,5 +1,6 @@
 body {
     font-family: 'Raleway', sans-serif;
+    overflow-x: hidden;
 }
 
 .img-app {
@@ -26,12 +27,6 @@ body {
  .dark-info p {
      text-align: justify;
      width: 80%;
- }
-
- .rect {
-     border: 2px solid #8e24aa;
-     border-radius: 4px;
-     height: 500px;
  }
 
  .purple-info {
@@ -77,4 +72,9 @@ body {
     left: 20%;
     border: 1px solid #000000;
     width: 50%;
+}
+
+#logo3d {
+    width: 50%;
+    height: 10%;
 }
