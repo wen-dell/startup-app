@@ -5,7 +5,8 @@
   margin: 5px;
   font-size: 15px;
   border-radius: 100%;
-  color: #FFF;
+  color: #000000;
+  cursor: pointer;
 }
 
 .tooltip:before,
@@ -22,7 +23,8 @@
   border-color: transparent #ab47bc #ab47bc transparent;
   top: 5px;
   left: 35px;
-   transform: translateY(20px);
+  transform: translateY(20px);
+  
 }
 
 .tooltip:after {
@@ -38,30 +40,12 @@
   border-radius: 5px;
   letter-spacing: 1px;
   transform: translateY(20px);
+  color: #ffffff;
+  text-align: justify;
 }
 
 .tooltip:hover::before,
 .tooltip:hover::after {
   opacity: 1;
   transform: translateY(-2px);
-}
-
-@keyframes shake {
-  0% { 
-    transform: rotate(2deg);
-  }
-  50% {
-   transform: rotate(-3deg);
-  }
-  70% {
-    transform: rotate(3deg);
-  }
-
-  100% {
-    transform: rotate(0deg);
-  }
-}
-
-#anim:hover {
-  animation: shake 500ms ease-in-out forwards;
 }
