@@ -11,6 +11,7 @@
     <link href="css/estilo.css" rel="stylesheet">
     <link href="css/tooltip.css" rel="stylesheet">
     <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <link href="css/cortina.css" rel="stylesheet">
 </head>
 
 <body>
@@ -68,27 +69,6 @@
         </div>
     </div>
 
-    <div class="row">
-        <div class="col s12 customer">
-            <img src="imgs/maria-costa.jpg" class="circle responsive-img" alt="Cliente Maria Costa">
-            <h5>Maria Costa</h5>
-            <p>Cabeleireira</p>
-            <span id="anim" class="more-info tooltip" data-tooltip="A AppMakers ajudou o meu negócio a crescer muito mais rapidamente. Depois que contratei o serviço deles, meu lucro aumentou muito.">...</span>
-        </div>
-        <div class="col s12 customer">
-            <img src="imgs/suze-lorenzetto.jpg" class="circle responsive-img" alt="Cliente Suze Lorenzetto">
-            <h5>Suze Lorenzetto</h5>
-            <p>Empresária</p>
-            <span class="more-info tooltip" data-tooltip="Acredito no trabalho das pessoas da AppMakers e do valor que é ter um app nos dias de hoje. Meus clientes adoraram a novidade e o app facilita muito a vida deles.">...</span>
-        </div>
-        <div class="col s12 customer">
-            <img src="imgs/ricardo-cesar.jpg" class="circle responsive-img" alt="Cliente Ricardo César">
-            <h5>Ricardo César</h5>
-            <p>Empresário</p>
-            <span class="more-info tooltip" data-tooltip="Sempre gostei de tecnologia e sei de sua importância nos negócios. Contratar o serviço da AppMakers só fez minhas antigas ideias se tornarem realidade.">...</span>
-        </div>
-    </div>
-
     <div class="carousel">
         <a class="carousel-item" href="#two!">
             <img src="imgs/android.png" title="Android">
@@ -102,6 +82,51 @@
         <a class="carousel-item" href="#three!">
             <img src="imgs/blackberry-logo.jpg" title="Blackberry">
         </a>
+    </div>
+
+    <div class="row">
+        <div class="col s12 customer">
+            <img src="imgs/maria-costa.jpg" class="circle responsive-img z-depth-3" alt="Cliente Maria Costa">
+            <h5>Maria Costa</h5>
+            <p>Cabeleireira</p>
+            <span id="anim" class="more-info tooltip" data-tooltip="A AppMakers ajudou o meu negócio a crescer muito mais rapidamente. Depois que contratei o serviço deles, meu lucro aumentou muito.">...</span>
+        </div>
+        <div class="col s12 customer">
+            <img src="imgs/suze-lorenzetto.jpg" class="circle responsive-img z-depth-3" alt="Cliente Suze Lorenzetto">
+            <h5>Suze Lorenzetto</h5>
+            <p>Empresária</p>
+            <span class="more-info tooltip" data-tooltip="Acredito no trabalho das pessoas da AppMakers e do valor que é ter um app nos dias de hoje. Meus clientes adoraram a novidade e o app facilita muito a vida deles.">...</span>
+        </div>
+        <div class="col s12 customer">
+            <img src="imgs/ricardo-cesar.jpg" class="circle responsive-img z-depth-3" alt="Cliente Ricardo César">
+            <h5>Ricardo César</h5>
+            <p>Empresário</p>
+            <span class="more-info tooltip" data-tooltip="Sempre gostei de tecnologia e sei de sua importância nos negócios. Contratar o serviço da AppMakers só fez minhas antigas ideias se tornarem realidade.">...</span>
+        </div>
+    </div>
+
+    <div class="purple-info">
+        <div class="row">
+            <form class="col s12">
+                <h5>Contate nossa equipe</h5>
+                <div class="row">
+                    <div class="input-field col s6">
+                        <input id="nome" type="text">
+                        <label for="nome">Nome</label>
+                    </div>
+                    <div class="input-field col s6">
+                        <input id="sobrenome" type="text">
+                        <label for="sobrenome">Sobrenome</label>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="input-field col s12">
+                        <textarea id="mensagem"></textarea>
+                        <label for="mensagem">Mensagem</label>
+                    </div>
+                </div>
+            </form>
+        </div>
     </div>
 
     <footer class="page-footer footer-color">
@@ -154,12 +179,13 @@
     </div>
 
 
+    <script src="js/three.min.js"></script>
+    <script src="js/ObjectLoader.js"></script>
     <script src="js/jquery-3.3.1.min.js"></script>
     <script src="js/materialize.js"></script>
     <script src="js/carrossel.js"></script>
     <script src="js/collapsible.js"></script>
     <script src="js/botao.js"></script>
-    <script src="js/three.min.js"></script>
     <script src="js/logo-3d.js"></script>
 </body>
 

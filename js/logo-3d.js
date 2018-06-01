@@ -11,8 +11,6 @@ var geometry = new THREE.OctahedronGeometry(1, 0);
 var edges = new THREE.EdgesGeometry(geometry);
 var line = new THREE.LineSegments(edges, new THREE.LineBasicMaterial({ color: 0xab47bc }));
 
-var loader = new THREE.FontLoader();
-
 scene.add(line);
 
 camera.position.z = 5;
