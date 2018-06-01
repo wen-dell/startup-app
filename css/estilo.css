@@ -3,6 +3,10 @@ body {
     overflow-x: hidden;
 }
 
+.brand-logo {
+    margin-left: 10px;
+}
+
 .img-app {
     width: 300px;
     height: 300px;
@@ -102,16 +106,35 @@ input {
     color: #fff;
 }
 
-input:hover {
+input:hover, input:focus {
     border-bottom: 2px solid #fff !important;
 }
 
 textarea {
     border-style: none none solid none;
     border-width: 0 0 2px 0;
-    border-color: transparent transparent #8e24aa transparent;
+    border-color: transparent transparent rgb(142, 36, 170) transparent;
     resize: none;
     height: 100px;
     color: #fff;
 }
 
+textarea:hover, textarea:focus {
+    border-bottom: 2px solid #fff !important;
+}
+
+::-webkit-scrollbar {
+    width: 12px;
+}
+ 
+::-webkit-scrollbar-track {
+    -webkit-box-shadow: inset 0 0 6px rgba(0,0,0,0.3); 
+    box-shadow: inset 0 0 6px rgba(0,0,0,0.3); 
+    border-radius: 10px;
+}
+ 
+::-webkit-scrollbar-thumb {
+    border-radius: 10px;
+    -webkit-box-shadow: inset 0 0 6px rgba(0,0,0,0.5); 
+    box-shadow: inset 0 0 6px rgba(0,0,0,0.5); 
+}
