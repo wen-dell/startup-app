@@ -21,6 +21,7 @@ body {
      background-color: #000;
      color: #fff;
      padding: 100px;
+     margin-top: -20px;
  }
 
  .dark-info i {
@@ -78,8 +79,10 @@ body {
 }
 
 #logo3d {
-    width: 50%;
-    height: 10%;
+    background-color: #242628;
+    width: 100vw;
+    margin-left: -23px;
+    margin-bottom: 0;
 }
 
 .purple-info {
