@@ -53,12 +53,23 @@ body {
      bottom: 160px;
  }
 
- .customer hr {
-     border: 0.5px solid #d2d2d2;
+ .customer .star-rating {
+    position: relative;
+    left: 780px;
+    bottom: 150px;
+ }
+
+ .customer span.star-rating {
+     margin-bottom: 14px;
+     display: inline-block;
+ }
+
+ .customer i.star-rating {
+     font-size: 22px;
  }
 
  .customer img {
-     width: 14%;
+     width: 14vw;
      height: 177px;
  }
 
@@ -140,4 +151,8 @@ textarea:hover, textarea:focus {
     border-radius: 10px;
     -webkit-box-shadow: inset 0 0 6px rgba(0,0,0,0.5); 
     box-shadow: inset 0 0 6px rgba(0,0,0,0.5); 
+}
+
+.purple-icon {
+    color: #8e24aa;
 }
