@@ -1,5 +1,5 @@
 var scene = new THREE.Scene();
-scene.background = new THREE.Color(0x24292e);
+scene.background = new THREE.Color(0x141414);
 var camera = new THREE.PerspectiveCamera(75, window.innerWidth / window.innerHeight, 0.1, 1000);
 
 var geometry = new THREE.OctahedronGeometry(1, 0);
