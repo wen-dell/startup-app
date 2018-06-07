@@ -1,10 +1,10 @@
 body {
     font-family: 'Raleway', sans-serif;
-    overflow-x: hidden;
 }
 
 .brand-logo {
     margin-left: 10px;
+    float: left !important;
 }
 
 .img-app {
@@ -31,7 +31,6 @@ body {
 
  .dark-info p {
      text-align: justify;
-     width: 80%;
  }
 
  .purple-info {
@@ -72,13 +71,6 @@ body {
     left: 20%;
     border: 1px solid #000000;
     width: 50%;
-}
-
-#logo3d {
-    background-color: #141414;
-    width: 100vw;
-    margin-left: -23px;
-    margin-bottom: 0;
 }
 
 .purple-info {

@@ -34,11 +34,18 @@ function init() {
         }
     }
     renderer = new THREE.CanvasRenderer();
-    renderer.setSize(window.innerWidth, window.innerHeight);
-    document.getElementById("logo3d").appendChild(renderer.domElement);
+    //renderer.setSize(window.innerWidth, window.innerHeight);
+    canvas = renderer.domElement;
+    canvasWidth = canvas.clientWidth;
+    canvasHeight = canvas.clientHeight;
+
+    container = document.getElementById("logo3d");
+    container.appendChild(canvas);
 
     renderer.setPixelRatio(window.devicePixelRatio);
-    renderer.setSize(window.innerWidth, window.innerHeight);
+    renderer.setSize(document.body.clientWidth, 500);
+
+    console.log(document.body.clientWidth);
     
     window.addEventListener('resize', onWindowResize, false);
 }
@@ -48,7 +55,7 @@ function onWindowResize() {
     windowHalfY = window.innerHeight / 2;
     camera.aspect = window.innerWidth / window.innerHeight;
     camera.updateProjectionMatrix();
-    renderer.setSize(window.innerWidth, window.innerHeight);
+    renderer.setSize(document.body.clientWidth, 500);
 }
 
 function render() {
