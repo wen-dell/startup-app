@@ -49,27 +49,12 @@ body {
      padding: 4px 10px;
      font-size: 20px;
      position: relative;
-     left: 200px;
-     bottom: 160px;
- }
-
- .customer .star-rating {
-    position: relative;
-    left: 780px;
-    bottom: 150px;
- }
-
- .customer span.star-rating {
-     margin-bottom: 14px;
-     display: inline-block;
- }
-
- .customer i.star-rating {
-     font-size: 22px;
+     left: 0.5%;
+     bottom: 42vh;
  }
 
  .customer img {
-     width: 14vw;
+     width: 155px;
      height: 177px;
  }
 
