@@ -43,7 +43,7 @@ function init() {
     container.appendChild(canvas);
 
     renderer.setPixelRatio(window.devicePixelRatio);
-    renderer.setSize(document.body.clientWidth, 500);
+    renderer.setSize(document.body.clientWidth, 550);
 
     console.log(document.body.clientWidth);
     
@@ -55,7 +55,7 @@ function onWindowResize() {
     windowHalfY = window.innerHeight / 2;
     camera.aspect = window.innerWidth / window.innerHeight;
     camera.updateProjectionMatrix();
-    renderer.setSize(document.body.clientWidth, 500);
+    renderer.setSize(document.body.clientWidth, 550);
 }
 
 function render() {
