@@ -4,7 +4,6 @@ body {
 
 .brand-logo {
     margin-left: 10px;
-    float: left !important;
 }
 
 .img-app {
@@ -76,16 +75,6 @@ body {
 .purple-info {
     background-color: #ba68c8;
     padding: 20px;
-}
-
-.purple-info img {
-    width: 90%;
-}
-
-.purple-info .img-right {
-   float: right;
-   width: 90%;
-   margin-top: 20px;
 }
 
 label {

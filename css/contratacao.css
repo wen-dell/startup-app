@@ -2,11 +2,16 @@ body {
     font-family: 'Raleway', sans-serif;
 }
 
+.brand-logo {
+    margin-left: 10px;
+}
+
 .dark-info {
     background-color: #000;
     color: #fff;
-    height: 60vh;
+    height: 80vh;
     padding-top: 80px;
+    margin-bottom: 50px;
 }
 
 .dark-info i {
@@ -23,6 +28,100 @@ body {
 }
 
 .rect-purple {
+    position: relative;
     border: 2px solid #8e24aa;
-    height: 200px;
+    height: 300px;
+}
+
+.rect-purple i.top {
+    position: absolute;
+    height: 50px;
+    top: -15%;
+    left: 40%;
+    background-color: #000;
+    padding-left: 15px;
+    padding-right: 15px;
+}
+
+.rect-purple i.check {
+    font-size: 15px;
+    color: #8e24aa;
+}
+
+.rect-purple p {
+    font-size: 20px;
+    text-align: center;
+}
+
+.rect-purple ul {
+    margin-top: 30px;
+}
+
+.rect-purple li {
+    padding: 10px;
+    text-align: center;
+}
+
+.rect-purple li:hover {
+    background-color: rgba(222, 125, 248, 0.5);
+}
+
+.image-info {
+    width: 100%;
+}
+
+.purple-message {
+    background-color: #8e24aa;
+    color: #fff;
+    border-radius: 14px;
+    margin-top: 30px;
+    text-align: justify;
+}
+
+.purple-info {
+    background-color: #ba68c8;
+    color: #fff;
+    padding: 20px;
+}
+
+label {
+    color: #fff !important;
+}
+
+input {
+    border-bottom: 2px solid #8e24aa !important;
+    color: #fff;
+}
+
+input:hover, input:focus {
+    border-bottom: 2px solid #fff !important;
+}
+
+textarea {
+    border-style: none none solid none;
+    border-width: 0 0 2px 0;
+    border-color: transparent transparent rgb(142, 36, 170) transparent;
+    resize: none;
+    height: 100px;
+    color: #fff;
+}
+
+textarea:hover, textarea:focus {
+    border-bottom: 2px solid #fff !important;
+}
+
+::-webkit-scrollbar {
+    width: 12px;
+}
+ 
+::-webkit-scrollbar-track {
+    -webkit-box-shadow: inset 0 0 6px rgba(0,0,0,0.3); 
+    box-shadow: inset 0 0 6px rgba(0,0,0,0.3); 
+    border-radius: 10px;
+}
+ 
+::-webkit-scrollbar-thumb {
+    border-radius: 10px;
+    -webkit-box-shadow: inset 0 0 6px rgba(0,0,0,0.5); 
+    box-shadow: inset 0 0 6px rgba(0,0,0,0.5); 
 }
