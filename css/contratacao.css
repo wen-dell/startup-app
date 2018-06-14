@@ -3,7 +3,7 @@
 .dark-info {
     background-color: #000;
     color: #fff;
-    height: 80vh;
+    height: 100%;
     padding-top: 80px;
     margin-bottom: 50px;
 }
@@ -25,6 +25,10 @@
     position: relative;
     border: 2px solid #8e24aa;
     height: 300px;
+}
+
+.rect-purple:last-child {
+    margin-top: 60px;
 }
 
 .rect-purple i.top {
