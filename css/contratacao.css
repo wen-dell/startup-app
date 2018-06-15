@@ -71,9 +71,17 @@
 .purple-message {
     background-color: #8e24aa;
     color: #fff;
-    border-radius: 14px;
     margin-top: 30px;
     text-align: justify;
+    border-top-left-radius: 14px;
+    border-bottom-left-radius: 14px;
+}
+
+div.row .purple-message:nth-child(1) {
+    border-top-right-radius: 14px;
+    border-bottom-right-radius: 14px;
+    border-top-left-radius: 0;
+    border-bottom-left-radius: 0;
 }
 
 .purple-info {
